@@ -19,6 +19,7 @@ namespace Inheritance_Demo
             this.IsPublic = isPublic;
             this.ImageURL = imageURL;
         }
+
         public override string ToString()
         {
             return String.Format("{0} - {1}: {2} - by {3}", this.ID, this.Title, this.ImageURL, this.SendByUsername);
